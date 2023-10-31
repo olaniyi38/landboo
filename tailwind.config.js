@@ -10,6 +10,13 @@ module.exports = {
       backgroundImage: {
 
       },
+      gridColumn: {
+        "overlay": "1 / 2 "
+      },
+      gridRow: {
+        "overlay": " 1 / 2"
+      }
+
     },
   },
   plugins: [],
