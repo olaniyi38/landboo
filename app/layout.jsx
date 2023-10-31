@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
-import "./main.scss";
 import Header from "./components/Header";
+import "swiper/css"
+import "swiper/css/autoplay"
+import "./main.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 

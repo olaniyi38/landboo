@@ -1,16 +1,22 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
+import FeaturedProperties from "./components/FeaturedProperties";
 import Featured from "./components/Featured";
-import Record from "./components/Record";
+import Stats from "./components/Stats";
 import Services from "./components/Services";
+import Record from "./components/Record";
+
 
 export default function Home() {
 	return (
 		<main className="">
-         <Hero />
-		 <Featured />
-		 <Record/>
-		 <Services />
-    </main>
+			<Hero />
+			<FeaturedProperties />
+			<Stats />
+			<Services />
+			{/* <Featured /> */}
+			{/* <Record/>
+		 <Services /> */}
+		</main>
 	);
 }
