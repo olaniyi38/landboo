@@ -5,7 +5,7 @@ import Featured from "./components/Featured";
 import Stats from "./components/Stats";
 import Services from "./components/Services";
 import Record from "./components/Record";
-import Services from "./components/Services";
+
 
 export default function Home() {
 	return (
@@ -15,8 +15,8 @@ export default function Home() {
 			<Stats />
 			<Services />
 			{/* <Featured /> */}
-		 <Record/>
-		 <Services />
+			{/* <Record/>
+		 <Services /> */}
 		</main>
 	);
 }
