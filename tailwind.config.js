@@ -7,8 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+
       backgroundImage: {
 
+      },
+      colors: {
+        darkPurple: "hsl(261, 100%, 44%)"
       },
       gridColumn: {
         "overlay": "1 / 2 "
