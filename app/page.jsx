@@ -5,6 +5,7 @@ import Featured from "./components/Featured";
 import Stats from "./components/Stats";
 import Services from "./components/Services";
 import Record from "./components/Record";
+import Testimonials from "./components/Testimonials";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 			<FeaturedProperties />
 			<Stats />
 			<Services />
+			<Testimonials />
 			{/* <Featured /> */}
 			{/* <Record/>
 		 <Services /> */}
