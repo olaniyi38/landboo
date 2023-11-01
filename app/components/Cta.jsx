@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 const Cta = () => {
 	return (
@@ -6,21 +7,19 @@ const Cta = () => {
 			<div className="py-8 px-4 md:py-12 lg:px-16 pb-54 font-medium ">
 				{/* content */}
 				<div className="md:relative bg-lightPurple rounded-lg p-8 md:py-12 lg:py-16 space-y-4 z-[2] overflow-hidden">
-					<p className="md:max-w-[25rem] lg:max-w-[40rem]">
+					<p className="md:max-w-[25rem] lg:max-w-[30rem]">
 						Looking to own a property without hassle? Sharing Apps and Custom
 						Social Networking Apps. The experience has been pleasant,
 						professional and exceeding ou
 					</p>
-					<button className=" bg-white text-darkPurple font-medium py-1 px-3 rounded text-xs first-letter:capitalize ">
-						Buy now
-					</button>
-					<div className="absolute left-1 right-1 md:-top-20 md:inset-0 md:-right-[7rem] md:left-auto z-[1]  mx-auto">
+					<Button inverted>Buy now</Button>
+					<div className="absolute left-1 right-1 md:-top-16 lg:-top-20 md:inset-0 md:-right-[7rem] lg:-right-[5rem] md:left-auto z-[1]  mx-auto">
 						<Image
 							src="/images/cta-mob.svg"
-							width={800}
+							width={600}
 							height={600}
 							alt="cta-img"
-							className="md:w-[30rem]"
+							className="md:w-[28rem] lg:w-[32rem]"
 						/>
 					</div>
 				</div>

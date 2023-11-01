@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "./Button";
 
 const services = [
 	{
@@ -33,16 +34,16 @@ const Service = ({ data }) => {
 
 	return (
 		<div className=" flex flex-col gap-y-4">
-			<h1 className=" capitalize font-medium text-xl">{title}</h1>
+			<h1 className=" capitalize font-bold text-xl">{title}</h1>
 			<div className="relative aspect-[4/3] rounded-sm">
 				<Image src={imgSrc} fill alt={title + "image"} className="object-cover"/>
 			</div>
 			<div className="flex items-center justify-between uppercase text-xs">
-				<p className="font-medium">{tag}</p>
+				<p className="font-semibold">{tag}</p>
 				<Link href={url} className=" self-end">
-					<button className=" bg-darkPurple text-white py-1 px-3 rounded text-xs first-letter:capitalize ">
+					<Button >
 						know more
-					</button>
+					</Button>
 				</Link>
 			</div>
 		</div>
@@ -52,7 +53,7 @@ const Service = ({ data }) => {
 const Services = () => {
 	return (
 		<section>
-			<div className="py-8 px-4 md:px-8 md:py-12 lg:px-16 space-y-8">
+			<div className="py-8 px-4  md:p-12 lg:px-16 space-y-8">
 				<h1 className=" font-bold md:font-extrabold text-2xl md:text-3xl">Our Services</h1>
 				<div className="grid md:grid-cols-2 gap-6 md:gap-12">
 					{services.map((s) => (

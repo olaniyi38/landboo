@@ -60,8 +60,8 @@ const Testimonial = ({ data }) => {
 		<div className=" flex flex-col items-center ">
 			<div className="bg-white relative text-black  py-4 px-2 sm:p-6 sm:px-4 rounded text-center ">
 				<BiSolidDownArrow className="w-6 h-6 fill-white absolute -bottom-4 left-0 right-0 mx-auto  z-[2]" />
-				<h3 className=" font-semibold capitalize text-sm">{title}</h3>
-				<p className=" text-[.8rem] mt-2 sm:mt-4">{content}</p>
+				<h3 className=" font-semibold capitalize text-sm lg:text-base">{title}</h3>
+				<p className=" text-[.8rem] md:text-sm lg:text-base mt-2 sm:mt-4">{content}</p>
 			</div>
 			<div className=" flex items-center gap-x-3 mt-6">
 				<div className="relative w-10 h-10">

@@ -5,22 +5,22 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
   theme: {
     extend: {
-
-      backgroundImage: {
-
-      },
       colors: {
         darkPurple: "hsl(261, 100%, 44%)",
         lightPurple: "hsl(240, 100%, 88%)",
-        darkBlue:"hsl(230, 35%, 7%)"
+        darkBlue: "hsl(230, 35%, 7%)"
       },
       gridColumn: {
         "overlay": "1 / 2 "
       },
       gridRow: {
         "overlay": " 1 / 2"
+      },
+      screens: {
+        "xs": "350px"
       }
 
     },
