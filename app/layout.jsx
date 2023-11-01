@@ -6,6 +6,7 @@ import "swiper/css/autoplay"
 import 'swiper/css/grid';
 import "swiper/css/pagination"
 import "./main.scss";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
 			<body className={inter.className}>
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

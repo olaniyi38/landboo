@@ -10,8 +10,8 @@ const stats = {
 
 const Stats = () => {
 	return (
-		<section className=" bg-darkPurple py-8 text-white px-4 ">
-			<div className="p-4 bg-white text-black grid grid-cols-2 gap-8 rounded-md shadow-md">
+		<section className=" bg-darkPurple py-8 md:py-12 lg:px-16  px-4 text-white ">
+			<div className="p-4 md:p-8  bg-white text-black grid grid-cols-2 md:grid-cols-4 gap-8 rounded-md shadow-md">
 				<div className=" flex flex-col items-center">
 					<div className="bg-gray-200 p-3 rounded-full mb-2">
 						<Image
@@ -21,7 +21,7 @@ const Stats = () => {
 							alt="svg"
 						/>
 					</div>
-					<p className="text-darkPurple text-2xl  font-medium ">
+					<p className="text-darkPurple text-2xl  font-medium md:font-bold ">
 						{stats.clients}+
 					</p>
 					<p className=" capitalize text-sm">happy clients</p>
@@ -35,7 +35,7 @@ const Stats = () => {
 							alt="svg"
 						/>
 					</div>
-					<p className="text-darkPurple text-2xl  font-medium ">
+					<p className="text-darkPurple text-2xl  font-medium md:font-bold ">
 						{stats.projects}+
 					</p>
 					<p className=" capitalize text-sm">projects completed</p>
@@ -49,7 +49,7 @@ const Stats = () => {
 							alt="svg"
 						/>
 					</div>
-					<p className="text-darkPurple text-2xl  font-medium ">
+					<p className="text-darkPurple text-2xl  font-medium md:font-bold ">
 						{stats.members}+
 					</p>
 					<p className=" capitalize text-sm">dedicated members</p>
@@ -63,7 +63,7 @@ const Stats = () => {
 							alt="svg"
 						/>
 					</div>
-					<p className="text-darkPurple text-2xl  font-medium ">
+					<p className="text-darkPurple text-2xl  font-medium md:font-bold ">
 						{stats.awards}+
 					</p>
 					<p className=" capitalize text-sm">Awards won</p>

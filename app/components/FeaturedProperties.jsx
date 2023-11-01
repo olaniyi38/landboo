@@ -45,10 +45,10 @@ const FeaturedProperty = ({ data }) => {
 const FeaturedProperties = () => {
 	return (
 		<section>
-			<div className="py-8 px-4">
+			<div className="py-8 px-4 pr-0 sm:pl-8 md:pl-16 md:flex md:items-center">
 				{/* Text */}
-				<div className=" space-y-4">
-					<hgroup className=" font-bold text-3xl ">
+				<div className=" space-y-4 md:space-y-8  md:flex-initial md:pr-8">
+					<hgroup className=" font-extrabold text-3xl md:text-4xl ">
 						<h1>Featured</h1>
 						<h1>Properties</h1>
 					</hgroup>
@@ -61,7 +61,7 @@ const FeaturedProperties = () => {
 					</p>
 				</div>
 				{/* Images */}
-				<div className="pt-6">
+				<div className="pt-6 md:flex-initial md:w-[50%]">
 					<Swiper
 						spaceBetween={20}
 						slidesPerView="auto"
@@ -70,16 +70,16 @@ const FeaturedProperties = () => {
 							delay: 2000,
 						}}
 					>
-						<SwiperSlide  className="max-w-[9rem]">
+						<SwiperSlide className="max-w-[9rem] sm:max-w-[15rem]">
 							<FeaturedProperty data={featured1} />
 						</SwiperSlide>
-						<SwiperSlide className="max-w-[9rem]">
+						<SwiperSlide className="max-w-[9rem] sm:max-w-[15rem]">
 							<FeaturedProperty data={featured2} />
 						</SwiperSlide>
-						<SwiperSlide className="max-w-[9rem]">
+						<SwiperSlide className="max-w-[9rem] sm:max-w-[15rem]">
 							<FeaturedProperty data={featured1} />
 						</SwiperSlide>
-						<SwiperSlide className="max-w-[9rem]">
+						<SwiperSlide className="max-w-[9rem] sm:max-w-[15rem]">
 							<FeaturedProperty data={featured2} />
 						</SwiperSlide>
 					</Swiper>

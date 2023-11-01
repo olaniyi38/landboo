@@ -34,8 +34,8 @@ const Service = ({ data }) => {
 	return (
 		<div className=" flex flex-col gap-y-4">
 			<h1 className=" capitalize font-medium text-xl">{title}</h1>
-			<div className="relative aspect-square rounded-sm">
-				<Image src={imgSrc} fill alt={title + "image"} />
+			<div className="relative aspect-[4/3] rounded-sm">
+				<Image src={imgSrc} fill alt={title + "image"} className="object-cover"/>
 			</div>
 			<div className="flex items-center justify-between uppercase text-xs">
 				<p className="font-medium">{tag}</p>
@@ -52,10 +52,9 @@ const Service = ({ data }) => {
 const Services = () => {
 	return (
 		<section>
-			<div className="py-8 px-4 space-y-8">
-				<h1 className=" font-bold text-2xl">Our Services</h1>
-
-				<div className=" flex flex-col gap-y-6">
+			<div className="py-8 px-4 md:px-8 md:py-12 lg:px-16 space-y-8">
+				<h1 className=" font-bold md:font-extrabold text-2xl md:text-3xl">Our Services</h1>
+				<div className="grid md:grid-cols-2 gap-6 md:gap-12">
 					{services.map((s) => (
 						<Service key={s.title} data={s} />
 					))}

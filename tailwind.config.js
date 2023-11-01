@@ -12,7 +12,9 @@ module.exports = {
 
       },
       colors: {
-        darkPurple: "hsl(261, 100%, 44%)"
+        darkPurple: "hsl(261, 100%, 44%)",
+        lightPurple: "hsl(240, 100%, 88%)",
+        darkBlue:"hsl(230, 35%, 7%)"
       },
       gridColumn: {
         "overlay": "1 / 2 "
