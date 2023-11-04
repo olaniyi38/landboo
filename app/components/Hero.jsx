@@ -15,11 +15,11 @@ const Hero = () => {
 						fill
 						alt="house-hero"
 					/>
-					</div>
+				</div>
 				<div className="p-4  mx-4 lg:p-8 sm:mx-8 md:mx-12 lg:mx-32 lg:flex rounded xs:relative bottom-16 bg-white shadow-md space-y-6 sm:space-y-8">
 					<div className="flex-1 flex lg:flex-col gap-x-4 sm:gap-x-16 lg:gap-y-2">
-						<h4 className=" font-bold text-lg sm:text-3xl">150,000 +</h4>
-						<p className=" text-[.85rem] sm:text-base flex-1 lg:max-w-[80%]">
+						<h4 className=" font-bold text-lg sm:text-3xl xl:text-4xl">150,000 +</h4>
+						<p className=" text-[.85rem] sm:text-base flex-1 lg:text-xl lg:max-w-[70%]">
 							Customers who use LandbOO UI Kit to build their new startup
 							landing page.
 						</p>

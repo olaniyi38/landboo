@@ -36,10 +36,10 @@ const FeaturedProperty = ({ data }) => {
 			</div>
 			{/* content */}
 			<div className="py-2 space-y-2">
-				<p className=" font-medium text-lg md:text-xl">
+				<p className=" font-semibold text-lg md:text-xl">
 					$ {price.toLocaleString()}
 				</p>
-				<div className="flex font-semibold  uppercase text-xs md:text-base text-gray-700">
+				<div className="flex font-medium  uppercase text-xs md:text-base text-gray-700">
 					<p className="px-1 md:px-2 pl-0 border-r border-r-gray-700">
 						{beds} BEDs
 					</p>
@@ -56,12 +56,12 @@ const FeaturedProperties = () => {
 		<section>
 			<div className="py-8 px-4 xs:pr-0 sm:pl-8 md:pl-12 lg:pl-32 max-w-none md:flex md:items-center">
 				{/* Text */}
-				<div className=" space-y-4 md:space-y-8  md:flex-initial lg:flex-1 md:pr-8">
-					<hgroup className=" font-extrabold text-3xl md:text-4xl ">
+				<div className=" space-y-4 md:space-y-8  md:flex-initial lg:flex-1 md:pr-8 lg:pr-16">
+					<hgroup className=" font-extrabold text-3xl md:text-4xl xl:text-5xl">
 						<h1>Featured</h1>
 						<h1>Properties</h1>
 					</hgroup>
-					<p className="text-sm text-gray-600">
+					<p className="text-sm text-gray-600 lg:text-base">
 						Fermin Apps has collaborated with Landify team for several projects
 						such as Photo Sharing Apps and Custom Social Networking Apps. The
 						experience has been pleasant, professional and exceeding our

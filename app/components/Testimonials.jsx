@@ -64,7 +64,7 @@ const Testimonial = ({ data }) => {
 				<p className=" text-[.8rem] md:text-sm lg:text-base mt-2 sm:mt-4">{content}</p>
 			</div>
 			<div className=" flex items-center gap-x-3 mt-6">
-				<div className="relative w-10 h-10">
+				<div className="relative w-10 h-10 lg:w-12 lg:h-12">
 					<Image src={imgSrc} alt={name + "testimonial"} fill />
 				</div>
 				<div className="text-sm">
@@ -80,7 +80,7 @@ const Testimonials = () => {
 	return (
 		<section className="bg-darkPurple text-white">
 			<div className="py-8 md:py-12 px-4 lg:px-16">
-				<h2 className=" font-bold capitalize text-center text-2xl mb-4 md:mb-8">
+				<h2 className=" font-bold capitalize text-center text-2xl lg:text-3xl mb-4 md:mb-8 lg:mb-16">
 					Our clients speak
 				</h2>
 				<Swiper
@@ -89,7 +89,7 @@ const Testimonials = () => {
 					pagination={{ clickable: true, dynamicBullets: true }}
 					autoplay={{ delay: 3000 }}
 					modules={[Grid, Pagination, Autoplay]}
-					className="pb-12"
+					className="pb-12 lg:pb-16"
 				>
 					{testimonials.map((group) => (
 						<SwiperSlide key={group[0].title + group[1].title}>

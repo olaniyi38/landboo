@@ -4,7 +4,7 @@ import Button from "./Button";
 const Cta = () => {
 	return (
 		<section className="relative md:static overflow-hidden border border-black min-h-[26rem] md:min-h-0  bg-gray-200">
-			<div className="py-8 px-4 md:py-12 lg:px-16 pb-54 font-medium ">
+			<div className="py-8 px-4 md:py-12 lg:p-16 pb-54 font-medium ">
 				{/* content */}
 				<div className="md:relative bg-lightPurple rounded-lg p-8 md:py-12 lg:py-16 space-y-4 z-[2] overflow-hidden">
 					<p className="md:max-w-[25rem] lg:max-w-[30rem]">
@@ -23,7 +23,7 @@ const Cta = () => {
 						/>
 					</div>
 				</div>
-				{/* image */}
+
 			</div>
 		</section>
 	);

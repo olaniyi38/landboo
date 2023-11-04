@@ -76,9 +76,9 @@ const Footer = () => {
 			<div className="py-8 px-4 md:px-8 md:py-12 lg:px-16">
 				<div className="flex flex-wrap gap-4 gap-y-8 ">
 					{links.map(({ title, urls }) => (
-						<div className=" space-y-2 flex-1 basis-[10rem]">
+						<div className=" space-y-2 md:space-y-6 flex-1 basis-[10rem]">
 							<h3 className="font-semibold text-md capitalize">{title}</h3>
-							<div className=" flex flex-col gap-y-2">
+							<div className=" flex flex-col gap-y-2 md:gap-y-4">
 								{urls.map(({ name, url }) => (
 									<Link className=" capitalize text-sm" href={url}>
 										{name}
@@ -95,7 +95,11 @@ const Footer = () => {
 									src="/images/svgs/play-store.svg"
 									width={100}
 									height={10}
+									className=" object-cover "
+
 								/>
+							</Link>
+							<Link href={"#"}>
 								<Image
 									src="/images/svgs/ios-store.svg"
 									width={100}
@@ -105,20 +109,20 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<aside className=" border-t border-t-gray-300 py-2 flex flex-col md:flex-row md:justify-between gap-3">
+				<aside className=" border-t border-t-gray-300 py-2 md:py-4 flex flex-col md:flex-row md:justify-between gap-3">
 					<p className=" text-sm">© 2023 Landboo. All rights reserved</p>
-					<div className=" flex gap-2">
-						<i className="bg-gray-800 p-1 rounded-full">
-							<AiOutlineInstagram className="w-5 h-5" />
+					<div className=" flex gap-2 lg:gap-4">
+						<i className="bg-gray-800 p-1 md:p-2 rounded-full">
+							<AiOutlineInstagram className="w-5 h-5  lg:w-6 lg:h-6" />
 						</i>
-						<i className="bg-gray-800 p-1 rounded-full">
-							<AiOutlineDribbble className="w-5 h-5" />
+						<i className="bg-gray-800 p-1 md:p-2 rounded-full">
+							<AiOutlineDribbble className="w-5 h-5 lg:w-6 lg:h-6" />
 						</i>
-						<i className="bg-gray-800 p-1 rounded-full">
-							<AiOutlineTwitter className="w-5 h-5" />
+						<i className="bg-gray-800 p-1 md:p-2 rounded-full">
+							<AiOutlineTwitter className="w-5 h-5 lg:w-6 lg:h-6" />
 						</i>
-						<i className="bg-gray-800 p-1 rounded-full">
-							<AiOutlineYoutube className="w-5 h-5" />
+						<i className="bg-gray-800 p-1 md:p-2 rounded-full">
+							<AiOutlineYoutube className="w-5 h-5 lg:w-6 lg:h-6" />
 						</i>
 					</div>
 				</aside>
