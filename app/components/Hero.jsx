@@ -6,8 +6,9 @@ const Hero = () => {
 			<div className="max-w-none">
 				{/* image */}
 				<div className="relative aspect-[16/9] lg:aspect-[16/7] text-white grid items-center">
-					<h1 className=" row-overlay col-overlay z-[1] font-bold text-2xl xs:text-3xl sm:text-5xl lg:text-6xl xl:text-7xl sm:max-w-[30rem] lg:max-w-[50rem]  pl-4 pr-20  sm:pl-8 lg:pl-32 sm:pr-0  ">
-						Find your Perfect Property here
+					<h1 className="flex flex-col gap-y-2 lg:gap-y-6  row-overlay col-overlay z-[1] font-bold text-2xl xs:text-3xl sm:text-5xl lg:text-6xl xl:text-7xl sm:max-w-[30rem] lg:max-w-[50rem]  pl-4 pr-20  sm:pl-8 lg:pl-32 sm:pr-0  ">
+						<span>Find your Perfect</span>
+						<span> Property here</span>
 					</h1>
 					<Image
 						className=" row-overlay col-overlay object-cover"
@@ -18,7 +19,7 @@ const Hero = () => {
 				</div>
 				<div className="p-4  mx-4 lg:p-8 sm:mx-8 md:mx-12 lg:mx-32 lg:flex rounded xs:relative bottom-16 bg-white shadow-md space-y-6 sm:space-y-8">
 					<div className="flex-1 flex lg:flex-col gap-x-4 sm:gap-x-16 lg:gap-y-2">
-						<h4 className=" font-bold text-lg sm:text-3xl xl:text-4xl">150,000 +</h4>
+						<h4 className=" font-bold text-lg sm:text-3xl xl:text-5xl">150,000 +</h4>
 						<p className=" text-[.85rem] sm:text-base flex-1 lg:text-xl lg:max-w-[70%]">
 							Customers who use LandbOO UI Kit to build their new startup
 							landing page.

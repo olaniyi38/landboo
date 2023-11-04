@@ -55,7 +55,7 @@ const Services = () => {
 		<section>
 			<div className="py-8 px-4  md:p-12 lg:p-16 space-y-8 lg:space-y-20	">
 				<h1 className=" font-bold md:font-extrabold text-2xl md:text-3xl">Our Services</h1>
-				<div className="grid md:grid-cols-2 gap-6 md:gap-12 lg:gap-y-20">
+				<div className="grid md:grid-cols-2 gap-6 md:gap-12 lg:gap-x-16 lg:gap-y-24">
 					{services.map((s) => (
 						<Service key={s.title} data={s} />
 					))}

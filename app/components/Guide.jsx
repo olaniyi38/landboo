@@ -1,29 +1,44 @@
 
-const Guide = () =>{
+const guide = [
+    {
+        title: "Own a property in few steps",
+        desc: "Follow these easy steps to purchase any property of your choice"
+    },
+    {
+        title: "Browse our catalog",
+        desc: "See 3D renderings of our buildings on completion"
+    }, {
+        title: "Make a down payment",
+        desc: "Manufacturing the final physical product"
+    }, {
+        title: "Get all the documents",
+        desc: "Final physical product has begun shipping"
+    },
+]
+
+const Guide = () => {
     return (
-        <div>
-            <div>
-                <h2>Own a property in few steps</h2>
-                <h4>Follow these easy steps to purchase any property of your choice</h4>
-            </div>
-            <div>
-                <div>
-                    <h3>Browse our catalog</h3>
-                    <h4>See 3D renderings of our buildings on completion</h4>
-                </div>
-                <div>
-                    <h3>Choose the property you like</h3>
-                    <h4></h4>
-                </div>
-                <div>
-                    <h3>Contact our sales department</h3>
-                    <h4>For more information and make a payment schedule</h4>
-                </div>
-                <div>
-                    <h3>Get all the documents</h3>
-                    <h4>Final</h4>
+        <section className="">
+            <div className="py-16 px-4  md:p-12 lg:p-16 space-y-20 lg:space-y-32 text-center">
+                <hgroup className="space-y-2">
+                    <h1 className="font-bold text-2xl md:text-4xl">Own a property in few steps</h1>
+                    <h3 className="md:text-lg">As a startup, we are going through the development cycle.</h3>
+                </hgroup>
+                <div className="grid xs:grid-cols-2 md:grid-cols-4 gap-x-8 lg:gap-x-10 items-center  gap-y-16">
+                    {
+                        guide.map(({ title, desc }, i) => (
+                            <div key={title} className="flex flex-col gap-y-2 relative">
+                                <span className="absolute left-0 right-0 mx-auto -top-10 md:-top-14 font-extrabold text-7xl md:text-8xl text-darkPurple/20">{i}</span>
+                                <p className="font-semibold z-[2] md:text-lg">{title}</p>
+                                <p className=" text-sm md:text-base px-4 z-[2]">{desc}</p>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
-        </div>
+
+        </section>
     );
 }
+
+export default Guide
