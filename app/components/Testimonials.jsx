@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Grid, Pagination } from "swiper/modules";
 import { BiSolidDownArrow } from "react-icons/bi";
+import { RiDoubleQuotesR } from 'react-icons/ri'
 
 const testimonials = [
 	[
@@ -78,9 +79,10 @@ const Testimonial = ({ data }) => {
 
 const Testimonials = () => {
 	return (
-		<section className="bg-darkPurple text-white">
-			<div className="py-8 md:py-12 px-4 lg:px-16">
-				<h2 className=" font-bold capitalize text-center text-2xl lg:text-3xl mb-4 md:mb-8 lg:mb-16">
+		<section className="relative bg-darkPurple text-white overflow-hidden">
+			<RiDoubleQuotesR className=" fill-lightPurple/20 absolute z[1] -right-2 md:right-6 top-5 sm:top-2 md:-top-4 lg:right-16  w-[25vw] max-w-[15rem] h-auto" />
+			<div className="z-[2]">
+				<h2 className=" font-bold capitalize text-center lg:text-left text-2xl md:text-3xl lg:text-4xl mb-4 md:mb-8 lg:mb-16">
 					Our clients speak
 				</h2>
 				<Swiper
@@ -89,10 +91,10 @@ const Testimonials = () => {
 					pagination={{ clickable: true, dynamicBullets: true }}
 					autoplay={{ delay: 3000 }}
 					modules={[Grid, Pagination, Autoplay]}
-					className="pb-12 lg:pb-16"
+					className="pb-12 lg:pb-16  cursor-grab"
 				>
-					{testimonials.map((group) => (
-						<SwiperSlide key={group[0].title + group[1].title}>
+					{testimonials.map((group, i) => (
+						<SwiperSlide key={group[0].title + group[1].title + i}>
 							<div className="flex flex-col md:flex-row items-center gap-8 md:gap-x-4">
 								<Testimonial data={group[0]} />
 								{group.length > 1 && <Testimonial data={group[1]} />}

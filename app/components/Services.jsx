@@ -53,9 +53,9 @@ const Service = ({ data }) => {
 const Services = () => {
 	return (
 		<section>
-			<div className="py-8 px-4  md:p-12 lg:p-16 space-y-8 lg:space-y-20	">
-				<h1 className=" font-bold md:font-extrabold text-2xl md:text-3xl">Our Services</h1>
-				<div className="grid md:grid-cols-2 gap-6 md:gap-12 lg:gap-x-16 lg:gap-y-24">
+			<div className="space-y-8 lg:space-y-16	">
+				<h1 className=" font-bold md:font-extrabold text-2xl md:text-3xl lg:text-4xl">Our Services</h1>
+				<div className="grid md:grid-cols-2 gap-6 gap-y-12 md:gap-12 lg:gap-x-16 lg:gap-y-24">
 					{services.map((s) => (
 						<Service key={s.title} data={s} />
 					))}
@@ -67,44 +67,4 @@ const Services = () => {
 
 export default Services;
 
-//     {
-//         type: "residential",
-//         image: "1",
-//     },
-//     {
-//         type: "landed",
-//         image: "2",
-//     },
-//     {
-//         type:"commercial",
-//         image: "3",
-//     },
-//     {
-//         type: "industrial",
-//         image: "1",
-//     }
-// ]
 
-// const Services = ()=>{
-//     return (
-//         <div>
-//             <div>
-
-//             <h2>Our Services</h2>
-//             </div>
-
-// <div>
-//     {
-//         services.map((service)=>{
-//             <div>
-//                 <h3>{service.type}</h3>
-//                 <Image src="/images/serv-$`{service.image}`.webp" alt="house-hero"/>
-//             </div>
-//         })
-//     }
-// </div>
-//         </div>
-//     )
-// }
-
-// export default Services;

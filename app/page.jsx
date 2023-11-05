@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Guide from './components/Guide'
 import Cta from "./components/Cta";
+import GetEmail from "./components/GetEmail";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
 			<Guide />
 			<Testimonials />
 			<Cta />
-		</main>
+			<GetEmail />
+		</main>	
 	);
 }

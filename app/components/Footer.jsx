@@ -76,9 +76,9 @@ const Footer = () => {
 			<div className="py-8 px-4 md:px-8 md:py-12 lg:px-16">
 				<div className="flex flex-wrap gap-4 gap-y-8 pb-4 md:pb-6 lg:pb-8">
 					{links.map(({ title, urls }) => (
-						<div className=" space-y-2 md:space-y-6 flex-1 basis-[10rem]">
+						<div className=" space-y-4 md:space-y-6 flex-1 basis-[10rem]">
 							<h3 className="font-semibold text-md capitalize">{title}</h3>
-							<div className=" flex flex-col gap-y-2 md:gap-y-4">
+							<div className=" flex flex-col gap-y-4 ">
 								{urls.map(({ name, url }) => (
 									<Link className=" capitalize text-sm" href={url}>
 										{name}
@@ -87,9 +87,9 @@ const Footer = () => {
 							</div>
 						</div>
 					))}
-					<div className="space-y-2 md:space-y-6 flex-1 basis-[10rem]">
+					<div className="space-y-4 md:space-y-6 flex-1 basis-[10rem]">
 						<h3 className="font-semibold text-md capitalize">Install App</h3>
-						<div className="flex flex-col gap-y-8">
+						<div className="flex flex-col gap-y-4 lg:gap-y-8">
 							<Link href={"#"}>
 								<Image
 									src="/images/svgs/play-store.svg"

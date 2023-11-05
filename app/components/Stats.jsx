@@ -27,7 +27,7 @@ const Stats = () => {
 	return (
 		<section className="relative py-12 px-4 md:p-12 lg:p-16   text-white ">
 			<aside className="bg-darkPurple z-[1] absolute w-full h-[50%] top-0 left-0 right-0 mx-auto "></aside>
-			<div className="relative text-center z-[2] p-4 md:p-8 lg:mx-16 bg-white text-black grid grid-cols-2 md:grid-cols-4 gap-y-8 xs:gap-8 rounded-md shadow-md">
+			<div className="relative text-center z-[2] p-4  lg:mx-16 bg-white text-black grid grid-cols-2 md:grid-cols-4 gap-y-8 xs:gap-8 rounded-md shadow-md">
 
 				{
 					stats.map(({ title, value, img }) => (

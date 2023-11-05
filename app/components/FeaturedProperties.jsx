@@ -54,14 +54,14 @@ const FeaturedProperty = ({ data }) => {
 const FeaturedProperties = () => {
 	return (
 		<section>
-			<div className="py-8 px-4 xs:pr-0 sm:pl-8 md:pl-12 lg:pl-32 max-w-none md:flex md:items-center">
+			<div className="xs:pr-0 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-32 max-w-none md:flex md:items-center">
 				{/* Text */}
 				<div className=" space-y-4 md:space-y-8  md:flex-initial lg:flex-1 md:pr-8 lg:pr-16">
-					<hgroup className=" font-extrabold text-3xl md:text-4xl xl:text-5xl">
+					<hgroup className=" font-extrabold text-2xl md:text-4xl xl:text-5xl">
 						<h1>Featured</h1>
 						<h1>Properties</h1>
 					</hgroup>
-					<p className="text-sm text-gray-600 lg:text-base">
+					<p className="text-sm pr-4 sm:pr-0 text-gray-600 lg:text-base">
 						Fermin Apps has collaborated with Landify team for several projects
 						such as Photo Sharing Apps and Custom Social Networking Apps. The
 						experience has been pleasant, professional and exceeding our
