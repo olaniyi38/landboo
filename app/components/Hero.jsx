@@ -9,10 +9,12 @@ const Hero = () => {
 			<div className="max-w-none p-0">
 				{/* image */}
 				<div className="relative aspect-[16/9] lg:aspect-[16/7] text-white grid items-center">
-					<h1 className="flex flex-col gap-y-0 md:gap-y-4 lg:gap-y-6  row-overlay col-overlay z-[1] font-bold text-2xl xs:text-3xl sm:text-5xl lg:text-6xl xl:text-7xl sm:max-w-[30rem] lg:max-w-[50rem]  pl-4 pr-20  sm:pl-8 lg:pl-32 sm:pr-0  ">
-						<span>Find your Perfect</span>
-						<span> Property here</span>
-					</h1>
+					<div className="row-overlay col-overlay w-full h-full bg-black/60 z-[2] flex items-center">
+						<h1 className="flex flex-col gap-y-0 md:gap-y-4 lg:gap-y-6   z-[1] font-bold text-2xl xs:text-3xl sm:text-5xl lg:text-6xl xl:text-7xl sm:max-w-[30rem] lg:max-w-[50rem]  pl-4 pr-20  sm:pl-8 lg:pl-32 sm:pr-0  ">
+							<span>Find your Perfect</span>
+							<span> Property here</span>
+						</h1>
+					</div>
 					<Image
 						className=" row-overlay col-overlay object-cover"
 						src="/images/feat-1.webp"

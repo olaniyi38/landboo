@@ -86,7 +86,7 @@ const FeaturedProperty = ({ data }) => {
 const FeaturedProperties = () => {
 	return (
 		<section>
-			<div className="xs:pr-0 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-32 max-w-none md:flex md:items-center">
+			<div className="xs:pr-0 sm:pl-8 md:pl-12 lg:pl-16 lg:py-24 xl:pl-32 max-w-none md:flex md:items-center">
 				{/* Text */}
 				<div className=" space-y-4 md:space-y-8  md:flex-initial lg:flex-1 md:pr-8 lg:pr-16">
 					<hgroup className=" font-extrabold text-2xl md:text-4xl xl:text-5xl">
