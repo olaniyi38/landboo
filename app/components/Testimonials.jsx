@@ -11,43 +11,43 @@ const testimonials = [
 		{
 			title: "Incredible Experience",
 			content:
-				"We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+				"JROSY HOMES made my land purchase a breeze! Their professional and transparent approach, along with their quick communication, ensured a smooth process. I found the perfect piece of land with their help. I highly recommend JROSY HOMES for all your land-buying needs!",
 			by: {
 				imgSrc: "/images/photo.svg",
-				name: "Jane cooper",
-				desc: "CEO, ABC Corporation",
+				name: "Patrick Adakole",
+				desc: "N.G.O",
 			},
 		},
 		{
-			title: "Dependable, Responsive, Professional Partner",
+			title: "Dependable, Responsive, Professional",
 			content:
-				"Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations. The team is always thinking beyond the current tasks & helps us formulate a vision and possibilities for future.",
+				"Yemisi Michael here, and I can't say enough about my experience with this real estate company. They made buying land a breeze. Their professionalism and transparent approach ensured a smooth process, and I found the perfect piece of land. I highly recommend them for your land-buying needs!",
 			by: {
 				imgSrc: "/images/photo.svg",
-				name: "Jane cooper",
-				desc: "CEO, ABC Corporation",
+				name: "Yemisi Michael",
+				desc: "Business Woman",
 			},
 		},
 	],
 	[
 		{
-			title: "Incredible Experience",
+			title: "Seamless Land Purchase Experience",
 			content:
-				"We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+				"I recently had the pleasure of working with a real estate company to purchase land, and I couldn't be happier with the experience. Their professional team provided me with valuable insights and guided me through the entire process. They made sure I had all the information I needed to make an informed decision. The communication was top-notch, and I'm now a proud landowner. If you're in the market for land, this real estate company comes highly recommended!",
 			by: {
 				imgSrc: "/images/photo.svg",
-				name: "Jane cooper",
-				desc: "CEO, ABC Corporation",
+				name: "Capt Ojo A",
+				desc: "Military Personnel",
 			},
 		},
 		{
-			title: "Dependable, Responsive, Professional Partner",
+			title: "My Dream Home Journey",
 			content:
-				"Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations. The team is always thinking beyond the current tasks & helps us formulate a vision and possibilities for future.",
+				"Thanks to JROSY HOMES, I'm now building my dream home on the land they helped me find. From land selection to construction, their support has been invaluable. They made the process a breeze, and I can't wait to see the finished product!",
 			by: {
 				imgSrc: "/images/photo.svg",
-				name: "Jane cooper",
-				desc: "CEO, ABC Corporation",
+				name: "Alfred",
+				desc: "Real Estate Investor",
 			},
 		},
 	],
@@ -65,9 +65,9 @@ const Testimonial = ({ data }) => {
 				<p className=" text-[.8rem] md:text-sm lg:text-base mt-2 sm:mt-4">{content}</p>
 			</div>
 			<div className=" flex items-center gap-x-3 mt-6">
-				<div className="relative w-10 h-10 lg:w-12 lg:h-12">
+				{/* <div className="relative w-10 h-10 lg:w-12 lg:h-12">
 					<Image src={imgSrc} alt={name + "testimonial"} fill />
-				</div>
+				</div> */}
 				<div className="text-sm">
 					<p className="font-semibold">{name}</p>
 					<p>{desc}</p>

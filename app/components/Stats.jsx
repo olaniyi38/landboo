@@ -4,21 +4,24 @@ import React from "react";
 const stats = [
 	{
 		img: "/images/svgs/stat-client.svg",
-		title: "happy client",
+		title: "happy clients",
 		value: 50,
 	},
 	{
 		img: "/images/svgs/stat-proj.svg",
-		title: "projects completed",
-		value: 540
-	}, {
+		title: "ongoing projects",
+		value: 15
+	}
+	, 
+	{
 		img: "/images/svgs/stat-mem.svg",
-		title: "dedicated members",
-		value: 300
-	}, {
+		title: "dedicated staff",
+		value: 20
+	}
+	, {
 		img: "/images/svgs/stat-award.svg",
-		title: "awards dedicated",
-		value: 32
+		title: "Dedicated Partners",
+		value: 22
 	}
 ]
 

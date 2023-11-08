@@ -15,12 +15,12 @@ const Hero = () => {
 					</h1>
 					<Image
 						className=" row-overlay col-overlay object-cover"
-						src="/images/House-hero.webp"
+						src="/images/feat-1.webp"
 						fill
 						alt="house-hero"
 					/>
 				</div>
-				<div className="p-4  mx-4 lg:p-8 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-32 lg:flex rounded xs:relative bottom-10 md:bottom-16 bg-white shadow-md space-y-6 sm:space-y-8 lg:space-y-0">
+				{/* <div className="p-4  mx-4 lg:p-8 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-32 lg:flex rounded xs:relative bottom-10 md:bottom-16 bg-white shadow-md space-y-6 sm:space-y-8 lg:space-y-0">
 					<div className="flex-1 flex lg:flex-col gap-x-4 sm:gap-x-16 lg:gap-y-2">
 						<h4 className=" font-bold text-xl sm:text-3xl xl:text-5xl">150,000 +</h4>
 						<p className="text-xs xs:text-[.9rem] sm:text-base flex-1 lg:text-lg xl:pr-16 ">
@@ -37,7 +37,7 @@ const Hero = () => {
 							))
 						}
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);

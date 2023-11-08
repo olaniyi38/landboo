@@ -1,18 +1,18 @@
 
 const guide = [
     {
-        title: "Own a property in few steps",
-        desc: "Follow these easy steps to purchase any property of your choice"
+        title: "Inspection",
+        desc: "Send a message to schedule an inspection date with us"
     },
     {
-        title: "Browse our catalog",
-        desc: "See 3D renderings of our buildings on completion"
+        title: "Form",
+        desc: "Purchase, fill and return application form"
     }, {
-        title: "Make a down payment",
-        desc: "Manufacturing the final physical product"
+        title: "Make payment",
+        desc: "Make payment for your selected property"
     }, {
-        title: "Get all the documents",
-        desc: "Final physical product has begun shipping"
+        title: "Allocation",
+        desc: "Collection of titled document"
     },
 ]
 
@@ -21,8 +21,8 @@ const Guide = () => {
         <section className="">
             <div className="space-y-20 md:space-y-28 lg:space-y-32 text-center">
                 <hgroup className="space-y-2">
-                    <h1 className="font-bold text-2xl md:text-4xl">Own a property in few steps</h1>
-                    <h3 className="md:text-lg">As a startup, we are going through the development cycle.</h3>
+                    <h1 className="font-bold text-2xl md:text-4xl">Steps to Land Acquisition</h1>
+                    <h3 className="md:text-lg">Follow these simple steps</h3>
                 </hgroup>
                 <div className="grid xs:grid-cols-2 lg:grid-cols-4 gap-x-8 lg:gap-x-10 gap-y-16 md:gap-y-28 lg:items-center  ">
                     {

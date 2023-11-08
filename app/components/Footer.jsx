@@ -87,7 +87,7 @@ const Footer = () => {
 							</div>
 						</div>
 					))}
-					<div className="space-y-4 md:space-y-6 flex-1 basis-[10rem]">
+					{/* <div className="space-y-4 md:space-y-6 flex-1 basis-[10rem]">
 						<h3 className="font-semibold text-md capitalize">Install App</h3>
 						<div className="flex flex-col gap-y-4 lg:gap-y-8">
 							<Link href={"#"}>
@@ -107,7 +107,7 @@ const Footer = () => {
 								/>
 							</Link>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<aside className=" border-t border-t-gray-300 py-2 md:py-4 flex flex-col md:flex-row md:justify-between gap-3">
 					<p className=" text-sm">© 2023 Landboo. All rights reserved</p>

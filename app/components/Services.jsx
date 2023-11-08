@@ -4,28 +4,28 @@ import Button from "./Button";
 
 const services = [
 	{
-		imgSrc: "/images/serv-1.webp",
+		imgSrc: "/images/feat-1.webp",
 		title: "residential",
 		url: "#",
-		tag: "app design",
+		tag: "purchase, sales, renting and leasing",
 	},
 	{
 		imgSrc: "/images/serv-2.webp",
 		title: "landed",
 		url: "#",
-		tag: "branding",
+		tag: "land survey, land banking",
 	},
 	{
 		imgSrc: "/images/serv-3.webp",
 		title: "commercial",
 		url: "#",
-		tag: "web app",
+		tag: "commercial real estate development",
 	},
 	{
 		imgSrc: "/images/serv-4.webp",
-		title: "industrial",
+		title: "construction",
 		url: "#",
-		tag: "augmented reality",
+		tag: "property development and management",
 	},
 ];
 
@@ -42,7 +42,7 @@ const Service = ({ data }) => {
 				<p className="font-semibold lg:text-sm">{tag}</p>
 				<Link href={url} className=" self-end">
 					<Button >
-						know more
+						learn more
 					</Button>
 				</Link>
 			</div>

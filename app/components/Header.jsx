@@ -11,19 +11,19 @@ import { useState } from "react";
 
 export const LINKS = [
   {
-    title: "buy home",
+    title: "home",
     url: "/",
   },
   {
-    title: "sell home",
+    title: "about us",
     url: "/categories/headphones",
   },
   {
-    title: "find agent",
+    title: "gallery",
     url: "/categories/speakers",
   },
   {
-    title: "how it works",
+    title: "hot offers",
     url: "/categories/earphones",
   },
 ];
@@ -35,7 +35,7 @@ const Header = () => {
     <>
       <header className="border py-2 px-4 md:px-12 md:py-4 lg:px-16 xl:px-32 lg:py-6 flex items-center gap-x-2 sticky top-0 z-30 bg-white">
         <Image src="/images/logo.svg" width={40} height={40} alt="logo" />
-        <p className=" text-xl md:text-2xl  "><span className="font-bold">land</span>bOO</p>
+        {/* <p className=" text-xl md:text-2xl  "><span className="font-bold">land</span>bOO</p> */}
         <nav className="hidden lg:flex lg:items-center lg:ml-auto lg:gap-x-8 xl:gap-x-12">
           {
             LINKS.map(({ title, url }) => (
@@ -44,7 +44,7 @@ const Header = () => {
           }
           <Link href="#">
             <Button>
-              Sign Up
+              Contact Us
             </Button>
           </Link>
         </nav>
