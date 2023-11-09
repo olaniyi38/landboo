@@ -20,6 +20,8 @@ const Hero = () => {
 						src="/images/feat-1.webp"
 						fill
 						alt="house-hero"
+						loading="eager"
+						
 					/>
 				</div>
 				{/* <div className="p-4  mx-4 lg:p-8 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-32 lg:flex rounded xs:relative bottom-10 md:bottom-16 bg-white shadow-md space-y-6 sm:space-y-8 lg:space-y-0">
