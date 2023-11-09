@@ -12,7 +12,6 @@
     "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0",
     "sass": "^1.69.5",
     "swiper": "^11.0.3"
   },
@@ -22,6 +21,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
     "postcss": "^8",
+    "react-icons": "^4.11.0",
     "tailwindcss": "^3"
   }
 }

@@ -20,7 +20,7 @@ const Cta = () => {
 					<p className="md:max-w-[50%] xl:max-w-[35rem] lg:text-xl">
 						Looking to own a property without hassle? Contact us and make that move now!
 					</p>
-					<Link href="https://wa.link/slkr82">
+					<Link href="https://wa.link/slkr82" className="inline-block">
 						<Button inverted>Contact Us</Button>
 					</Link>
 

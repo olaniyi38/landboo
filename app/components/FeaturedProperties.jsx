@@ -86,7 +86,7 @@ const FeaturedProperty = ({ data }) => {
 const FeaturedProperties = () => {
 	return (
 		<section>
-			<div className="xs:pr-0 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-32 max-w-none md:flex md:items-center">
+			<div className="xs:pr-0 sm:pl-8 md:pl-12 lg:pl-16 lg:py-24 xl:pl-32 max-w-none md:flex md:items-center">
 				{/* Text */}
 				<div className=" space-y-4 md:space-y-8  md:flex-initial lg:flex-1 md:pr-8 lg:pr-16">
 					<hgroup className=" font-extrabold text-2xl md:text-4xl xl:text-5xl">
@@ -94,7 +94,7 @@ const FeaturedProperties = () => {
 						<h1>Property Designs</h1>
 					</hgroup>
 					<p className="text-sm pr-4 sm:pr-0 text-gray-600 lg:text-base">
-					"Your Dream Home Awaits. Explore our curated selection of featured properties and discover the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Ohhh, don't forget that you can customize any design to suit your unique style and preferences. Begin crafting this important part of your future with us today!"
+					Your Dream Home Awaits. Explore our curated selection of featured properties and discover the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Ohhh, don&apos;t forget that you can customize any design to suit your unique style and preferences. Begin crafting this important part of your future with us today!
 					</p>
 				</div>
 				{/* Images */}

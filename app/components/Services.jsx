@@ -35,11 +35,11 @@ const Service = ({ data }) => {
 	return (
 		<div className=" flex flex-col gap-y-4">
 			<h1 className=" capitalize font-bold text-xl">{title}</h1>
-			<div className="relative aspect-[4/3] rounded-sm">
-				<Image src={imgSrc} fill alt={title + "image"} className="object-cover"/>
+			<div className="relative aspect-[4/3] rounded-md">
+				<Image src={imgSrc} fill alt={title + "image"} className="object-cover rounded-md"/>
 			</div>
 			<div className="flex items-center justify-between uppercase text-xs">
-				<p className="font-semibold lg:text-sm">{tag}</p>
+				<p className="font-semibold max-w-[15rem]  lg:text-sm">{tag}</p>
 				<Link href={url} className=" self-end">
 					<Button >
 						learn more

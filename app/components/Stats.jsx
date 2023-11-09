@@ -12,7 +12,7 @@ const stats = [
 		title: "ongoing projects",
 		value: 15
 	}
-	, 
+	,
 	{
 		img: "/images/svgs/stat-mem.svg",
 		title: "dedicated staff",
@@ -34,7 +34,7 @@ const Stats = () => {
 
 				{
 					stats.map(({ title, value, img }) => (
-						<div className=" flex flex-col items-center lg:gap-y-1">
+						<div key={title + value} className=" flex flex-col items-center lg:gap-y-1">
 							<div className="bg-gray-200 p-3 rounded-full mb-2">
 								<Image
 									src={img}
