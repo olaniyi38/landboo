@@ -80,7 +80,7 @@ const Footer = () => {
 							<h3 className="font-semibold text-md capitalize">{title}</h3>
 							<div className=" flex flex-col gap-y-4 ">
 								{urls.map(({ name, url }) => (
-									<Link className=" capitalize text-sm" href={url}>
+									<Link key={"footer" + name} className=" capitalize text-sm" href={url}>
 										{name}
 									</Link>
 								))}

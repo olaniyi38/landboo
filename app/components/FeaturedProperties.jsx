@@ -94,7 +94,7 @@ const FeaturedProperties = () => {
 						<h1>Property Designs</h1>
 					</hgroup>
 					<p className="text-sm pr-4 sm:pr-0 text-gray-600 lg:text-base">
-					"Your Dream Home Awaits. Explore our curated selection of featured properties and discover the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Ohhh, don't forget that you can customize any design to suit your unique style and preferences. Begin crafting this important part of your future with us today!"
+					Your Dream Home Awaits. Explore our curated selection of featured properties and discover the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Ohhh, don&apos;t forget that you can customize any design to suit your unique style and preferences. Begin crafting this important part of your future with us today!
 					</p>
 				</div>
 				{/* Images */}
