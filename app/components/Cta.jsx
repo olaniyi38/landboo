@@ -16,7 +16,7 @@ const Cta = () => {
 			<div className=" pb-54 font-medium ">
 				{/* content */}
 
-				<div className="relative bg-lightPurple rounded-lg p-8 md:py-12 lg:py-16 space-y-4 z-[2] overflow-hidden">
+				<div className="relative bg-veryLightPurple rounded-lg p-8 md:py-12 lg:py-16 space-y-4 z-[2] overflow-hidden">
 					<p className="md:max-w-[50%] xl:max-w-[35rem] lg:text-xl">
 						Looking to own a property without hassle? Contact us and make that move now!
 					</p>

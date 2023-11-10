@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         darkPurple: "hsl(270, 100%, 20%)",
         lightPurple: "hsl(278, 56%, 55%)",
+        veryLightPurple: "hsl(270, 24%, 84%)",
         darkBlue: "hsl(230, 35%, 7%)"
       },
       gridColumn: {
