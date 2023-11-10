@@ -7,49 +7,49 @@ import { Autoplay } from "swiper/modules";
 
 const featured1 = {
 	imgSrc: "/images/feat-1.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 const featured2 = {
 	imgSrc: "/images/feat-2.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured3 = {
 	imgSrc: "/images/feat-3.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 45,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured4 = {
 	imgSrc: "/images/feat-4.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured5 = {
 	imgSrc: "/images/feat-5.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured6 = {
 	imgSrc: "/images/feat-2.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const FeaturedProperty = ({ data }) => {
@@ -69,14 +69,14 @@ const FeaturedProperty = ({ data }) => {
 			{/* content */}
 			<div className="py-2 space-y-2">
 				<p className=" font-semibold text-lg md:text-xl">
-					$ {price.toLocaleString()}
+				&#8358; {price.toLocaleString()}m
 				</p>
 				<div className="flex font-medium  uppercase text-xs md:text-base text-gray-700">
 					<p className="px-1 md:px-2 pl-0 border-r border-r-gray-700">
 						{beds} BEDs
 					</p>
 					<p className="px-1 md:px-2 border-r border-r-gray-700">{ba}BA</p>
-					<p className="px-1 md:px-2">{ft} SFT</p>
+					<p className="px-1 md:px-2">{ft} SQM</p>
 				</div>
 			</div>
 		</div>
