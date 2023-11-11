@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <>
       <header className="border py-2 px-4 md:px-12 md:py-4 lg:px-16 xl:px-32 lg:py-6 flex items-center gap-x-2 sticky top-0 z-30 bg-white">
-        <Image src="/images/logo.svg" width={40} height={40} alt="logo" />
+        <Image src="/images/logo.png" width={100} height={100} alt="logo" />
         <nav className="hidden lg:flex lg:items-center lg:ml-auto lg:gap-x-8 xl:gap-x-12">
           {
             LINKS.map(({ title, url }) => (
