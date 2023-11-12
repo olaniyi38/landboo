@@ -38,7 +38,7 @@ const Header = () => {
         <nav className="hidden lg:flex lg:items-center lg:ml-auto lg:gap-x-8 xl:gap-x-12">
           {
             LINKS.map(({ title, url }) => (
-              <Link key={title + url} className=" font-medium capitalize" href={url}>{title}</Link>
+              <Link key={title + url} className="hover:text-darkPurple transition-colors font-medium capitalize" href={url}>{title}</Link>
             ))
           }
           <Link href="#">

@@ -11,7 +11,7 @@ const MobileNav = ({ isActive }) => {
             <div className='p-6 py-12 flex flex-col gap-y-6 capitalize'>
                 {
                     LINKS.map(({ title, url }) => (
-                        <Link key={"mobile" + title + url} className='nav-link hover:text-darkPurple overflow-hidden' href={url}>
+                        <Link key={"mobile" + title + url} className='nav-link hover:text-darkPurple transition-colors overflow-hidden' href={url}>
                             <span>{title}</span>
                         </Link>
                     ))
