@@ -7,49 +7,49 @@ import { Autoplay } from "swiper/modules";
 
 const featured1 = {
 	imgSrc: "/images/feat-1.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 const featured2 = {
 	imgSrc: "/images/feat-2.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured3 = {
 	imgSrc: "/images/feat-3.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 45,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured4 = {
 	imgSrc: "/images/feat-4.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured5 = {
 	imgSrc: "/images/feat-5.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const featured6 = {
 	imgSrc: "/images/feat-2.webp",
-	price: 352982,
-	beds: 3,
-	ba: 2,
-	ft: 1200,
+	price: 65,
+	beds: 4,
+	ba: 4,
+	ft: 450,
 };
 
 const FeaturedProperty = ({ data }) => {
@@ -69,14 +69,14 @@ const FeaturedProperty = ({ data }) => {
 			{/* content */}
 			<div className="py-2 space-y-2">
 				<p className=" font-semibold text-lg md:text-xl">
-					$ {price.toLocaleString()}
+				&#8358; {price.toLocaleString()}m
 				</p>
 				<div className="flex font-medium  uppercase text-xs md:text-base text-gray-700">
 					<p className="px-1 md:px-2 pl-0 border-r border-r-gray-700">
 						{beds} BEDs
 					</p>
 					<p className="px-1 md:px-2 border-r border-r-gray-700">{ba}BA</p>
-					<p className="px-1 md:px-2">{ft} SFT</p>
+					<p className="px-1 md:px-2">{ft} SQM</p>
 				</div>
 			</div>
 		</div>
@@ -94,7 +94,7 @@ const FeaturedProperties = () => {
 						<h1>Property Designs</h1>
 					</hgroup>
 					<p className="text-sm pr-4 sm:pr-0 text-gray-600 lg:text-base">
-					Your Dream Home Awaits. Explore our curated selection of featured properties and discover the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Ohhh, don&apos;t forget that you can customize any design to suit your unique style and preferences. Begin crafting this important part of your future with us today!
+					Explore our curated selection of featured properties to find the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Oh, and don't forget that you can customize any design to suit your unique style and preferences. Start crafting this important part of your future with us today!
 					</p>
 				</div>
 				{/* Images */}

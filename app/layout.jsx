@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
-			<link rel='icon' href='/images/logo.svg'/>
+			<link rel='icon' href='/images/logo.png'/>
 			</head>
 			<body className={inter.className}>
 				<Header />
