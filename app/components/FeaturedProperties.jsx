@@ -94,7 +94,7 @@ const FeaturedProperties = () => {
 						<h1>Property Designs</h1>
 					</hgroup>
 					<p className="text-sm pr-4 sm:pr-0 text-gray-600 lg:text-base">
-						Explore our curated selection of featured properties to find the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Oh, and don&apos;t forget that you can customize any design to suit your unique style and preferences. Start crafting this important part of your future with us today!
+					Explore our curated selection of featured properties to find the perfect place to call home. From cozy starter homes to luxurious estates, we have something for everyone. Oh, and don&apos;t forget that you can customize any design to suit your unique style and preferences. Start crafting this important part of your future with us today!
 					</p>
 				</div>
 				{/* Images */}
