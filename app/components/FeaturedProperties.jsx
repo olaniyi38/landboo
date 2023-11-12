@@ -108,9 +108,11 @@ const FeaturedProperties = () => {
 						spaceBetween={20}
 						slidesPerView="auto"
 						modules={[Autoplay]}
+						draggable
 						autoplay={{
 							delay: 2000,
 						}}
+						className=" cursor-grab"
 					>
 						<SwiperSlide className="max-w-[9rem] sm:max-w-[15rem] xl:max-w-[18rem]">
 							<FeaturedProperty data={featured1} />

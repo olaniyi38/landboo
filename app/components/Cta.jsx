@@ -12,35 +12,37 @@ const Cta = () => {
 
 
 	return (
-		<section className="relative overflow-hidden border border-black min-h-[26rem] md:min-h-0  bg-gray-200">
+		<section className="relative grid items-center md:block overflow-hidden border border-black min-h-[20rem] md:min-h-0  bg-gray-200">
 			<div className=" pb-54 font-medium ">
 				{/* content */}
 
-				<div className="relative bg-veryLightPurple rounded-lg p-8 md:py-12 lg:py-16 space-y-4 z-[2] overflow-hidden">
-					<p className="md:max-w-[50%] xl:max-w-[35rem] lg:text-xl">
-						Looking to own a property without hassle? Contact us and make that move now!
-					</p>
-					<Link href="https://wa.link/slkr82" target="blank" className="inline-block">
-						<Button inverted>Contact Us</Button>
-					</Link>
+				<div className="relative md:flex md:items-start bg-veryLightPurple rounded-lg p-8 md:p-0 space-y-4 md:space-y-0 z-[2] overflow-hidden">
+					<div className="md:flex-1 md:self-center md:pl-8 md:pr-4 space-y-4">
+						<p className=" lg:text-xl md:max-w-[95%]">
+							Looking to own a property without hassle? Contact us and make that move now!
+						</p>
+						<Link href="https://wa.link/slkr82" target="blank" className="inline-block">
+							<Button inverted>Contact Us</Button>
+						</Link>
+					</div>
 
-					<div className="hidden md:block absolute left-1 right-1  md:-top-10 lg:-top-20 md:inset-0 md:-right-[15%] xl:-right-[6rem] md:left-auto z-[1]  mx-auto">
+					<div className="flex-1 relative aspect-video h-full hidden md:block  z-[1]  ">
 						<Image
 							src="/images/feat-4.webp"
-							width={600}
-							height={600}
+							fill
 							alt="cta-img"
-							className="md:w-[28rem] lg:w-[35rem]"
+							className="object-cover"
+
 						/>
 					</div>
 				</div>
-				<div className="absolute md:hidden -bottom-24 left-1 right-1 z-[1]  mx-auto">
+				<div className="absolute md:hidden inset-0 right-1 z-[1]">
 					<Image
-						src="/images/feat-4.webp" 
+						src="/images/feat-4.webp"
 						width={600}
 						height={600}
 						alt="cta-img"
-						className="md:w-[28rem] lg:w-[35rem] mx-auto"
+						className="w-full h-full object-cover mx-auto"
 					/>
 				</div>
 			</div>
