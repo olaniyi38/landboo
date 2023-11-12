@@ -38,8 +38,8 @@ const Service = ({ data }) => {
 			<div className="relative aspect-[4/3] rounded-md">
 				<Image src={imgSrc} fill alt={title + "image"} className="object-cover rounded-md"/>
 			</div>
-			<div className="flex items-center justify-between uppercase text-xs">
-				<p className="font-semibold max-w-[15rem]  lg:text-sm">{tag}</p>
+			<div className="flex items-start justify-between uppercase text-xs">
+				<p className="font-semibold pr-2 xs:pr-0 flex-1 sm:max-w-[15rem]  lg:text-sm">{tag}</p>
 				<Link href={url} className=" self-end">
 					<Button >
 						learn more

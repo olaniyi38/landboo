@@ -7,7 +7,7 @@ import Button from './Button'
 
 const MobileNav = ({ isActive }) => {
     return (
-        <nav className={`mobile-nav-transition absolute top-[3rem] z-[5] bg-white text-black w-full shadow-md  origin-top ${isActive ? "active" : ""}`}>
+        <nav className={`mobile-nav-transition fixed top-[3rem] z-[5] bg-white text-black w-full shadow-md  origin-top ${isActive ? "active" : ""}`}>
             <div className='p-6 py-12 flex flex-col gap-y-6 capitalize'>
                 {
                     LINKS.map(({ title, url }) => (
